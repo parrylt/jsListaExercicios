@@ -1,0 +1,62 @@
+#atividades {
+  font-family: Arial;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#atividades td, #atividades th {
+  border: 1px solid #000000bb;
+  padding: 8px;
+}
+
+#atividades tr:nth-child(even){background-color: #96b2eb7e;}
+#atividades tr:hover {background-color: #757171dc;}
+
+#atividades th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #86808675;
+  color: rgb(0, 0, 0);
+}
+
+.button 
+{
+  border-radius:20px;
+  box-shadow: 5px 5px 5px 2px black;
+  color: #96b2eb7e;
+  padding: 16px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 140px;
+  height: 50px;
+}
+  
+.sol1 
+{
+  background-color: #96b2eb7e;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+  
+.sol1:hover {
+ background-color: #4CAF50;
+ color: white;
+}
+  
+.sol2 {
+  background-color: #96b2eb7e;
+  color: black;
+  border: 2px solid #008CBA;
+}
+  
+.sol2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+  

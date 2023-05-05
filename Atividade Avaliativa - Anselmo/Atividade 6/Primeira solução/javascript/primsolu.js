@@ -1,0 +1,10 @@
+alert ("Digite 4 nomes")
+var nom1 = prompt ("Digite o primeiro nome")
+var nom2 = prompt ("Digite o segundo nome")
+var nom3 = prompt ("Digite o terceiro nome")
+var nom4 = prompt ("Digite o quarto nome")
+
+document.write ("<font class='sol1'>" + nom4 + "</font><br>")
+document.write ("<font class='sol1'>" + nom3 + "</font><br>")
+document.write ("<font class='sol1'>" + nom2 + "</font><br>")
+document.write ("<font class='sol1'>" + nom1 + "</font><br>")
